@@ -1,7 +1,7 @@
 #wrapper{
     background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr ;
     grid-template-areas: 
     "header"
     "main"
@@ -56,16 +56,55 @@ nav a{
     color: black;
 
 }
-main{
-    margin-left: 30%;
-    margin-right: 20%;
-    width: 40%;
-    text-align: justify;
-    font-size: 150%;
-    text-align: center;
-    
-    
-    
+#hej{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "section section"
+    "section section";
     
 }
 
+img{
+    width: 600px;
+}
+
+section{
+    text-align: center;
+    
+}
+#hejdå{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "section section"
+    "section section";
+
+
+}
+#hejdåhej{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "section section"
+    "section section";
+
+
+}
+#hejdåhejdå{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "section section"
+    "section section";
+
+
+}
