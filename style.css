@@ -80,7 +80,7 @@ section{
     
 }
 #hejdå{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
+   
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
@@ -90,9 +90,11 @@ section{
 
 
 }
-#alem
+#alem{
+    background-image: url(https://wallpaperstock.net/grey-patterns_wallpapers_2638_1920x1080.jpg);
+}
 #hejdåhej{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
