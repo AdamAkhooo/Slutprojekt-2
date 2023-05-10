@@ -48,14 +48,15 @@ nav ul{
 nav li{
     list-style: none;
     text-align: center;
-    font-size: 2em;
-    
+    font-size: 2em; 
 }
+
 nav a{
     text-decoration: none;
     color: black;
 
 }
+
 #hej{
     
     display: grid;
@@ -122,4 +123,19 @@ section{
 
 #leon{
     background-image: url(https://img1.wallspic.com/crops/7/6/6/8/48667/48667-angle-wood-logo-thrash_metal-music-1920x1080.jpg);
+}
+
+.quote{
+    font-family: cursive;
+    font-size: small;
+    
+}
+
+#vit{
+    color:white
+}
+
+iframe{
+    width: 500px;
+    height: 250px;
 }
