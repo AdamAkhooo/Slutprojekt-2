@@ -1,4 +1,4 @@
-#wrapper{
+#wrapper{ /*för att designa ett specifikt element med ett id som jag valde att ha på en specifik body*/
     background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
     display: grid;
     grid-template-rows: 1fr 2fr 1fr ;
@@ -9,11 +9,11 @@
     font-size: 30px;
     padding:8px;
 }
-header{
+header{ /*header delen är en del av griden, lägger till något som att centrera texten*/
     grid-area: header;
     text-align: center;
 }
-form{
+form{ /*för att designa min form på inloggnings sidan */
     grid-area: form;
     margin: auto;
     border-width: 3px;
@@ -22,22 +22,22 @@ form{
     padding: 2em;
     text-align: center;
 }
-input{
+input{ /*designar skriv fältets border och storlek i min form*/
     border-radius: 10px;
     font-size: 20px;
 
 }
-label{
+label{ /*designar inmatat text storlek i min form */
     font-size: 30px;
 
 }
-nav{
+nav{ /*nav är en del av griden där jag designar border och stil*/
     grid-area: nav;
     border-style: groove;
     border-radius: 10px;
     
 }
-nav ul{
+nav ul{ /*naven är uppdelad i 4 delar och är en del av griden, de ska även vara på rätt plats och ul är som ett barn till naven*/
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0%;
@@ -45,13 +45,13 @@ nav ul{
     
 
 }
-nav li{
+nav li{ /*designar navens utseende där jag ändrar storlek och centrerar även tar bort punkter*/
     list-style: none;
     text-align: center;
     font-size: 2em; 
 }
 
-nav a{
+nav a{ /*Så länkarna bara ser ut som text*/
     text-decoration: none;
     color: black;
 
@@ -72,11 +72,11 @@ nav a{
     background-image: url(https://4kwallpapers.com/images/wallpapers/pop-smoke-american-5120x2880-11137.jpg);
 }
 
-img{
+img{ /*ändrar bild på bredden*/
     width: 600px;
 }
 
-section{
+section{ /*centrerar allt som jag har i mina sections */
     text-align: center;
     
 }
@@ -125,17 +125,21 @@ section{
     background-image: url(https://img1.wallspic.com/crops/7/6/6/8/48667/48667-angle-wood-logo-thrash_metal-music-1920x1080.jpg);
 }
 
-.quote{
+.quote{ /*designar min klass där jag ändrar apperance och storlek */
     font-family: cursive;
     font-size: small;
     
 }
 
 #vit{
-    color:white
+    color:#FFFFFF;
 }
 
-iframe{
+iframe{ /* ändrar storlek på min spelbara youtube video*/
     width: 500px;
     height: 250px;
+}
+
+@media screen and (max-width: 800px){ /* matchar webbläsarens/enhetens storlek som du är på*/
+
 }

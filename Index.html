@@ -1,26 +1,30 @@
-<!DOCTYPE html>
-<html lang="sv">
-    <head>
-        <title>Musik</title>
+<!DOCTYPE html> <!--Berättar vilket slags dokument det är för webbläsaren-->
+<html lang="sv"> <!--Språket på sidan-->
+    <head> <!--Håller data som inte visas på själva sidan-->
+        <meta charset ="UTF-8"><!--UTF-8 är teckenkodningen som jag använder-->
+        <title>Musik</title> <!--Själva titeln på detta arbete-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"> <!--länkar till min css-->
     </head>
 
-    <body id="wrapper">
-    <header>
-        <h1>Välkommen</h1>
-        <p>Logga in</p>
+    <body id="wrapper"> <!--Själva kroppen till sidan, även ett id som gör det lättare om det är något på just denna sida man vill ändra i css-->
+    <header> <!--Det som är högst upp på sidan i  den globala menyn-->
+        <h1>Välkommen</h1> <!--Första rubriken och det som står högst upp på sidan-->
+        <p>Logga in</p> <!--Text stycke-->
     </header>
-    <main>
-        <form action="sida2.html">
-            <label for=""uname><br>Användarnamn</br></label>
-            <input type="text" placeholder="Användarnamn"  placeholder name="uname" required></input><br>
+    <main> <!--huvuddelen-->
+        <form action="sida2.html"> <!--startar ett formulär -->
+            <label for=""uname><br>Användarnamn</br></label> <!--skrivbar yta-->
+            <input type="text" placeholder="Användarnamn"  placeholder name="uname" required></input><br> <!--att man ska kunna skriva och att man måste skriva in för att gå vidare-->
 
             <label for="psw"><br>Lösenord:</br></label>
             <input type="password" placeholder="Lösenord"  placeholder name="psw" required></input><br>
             
-            <button type="submit">Logga in</button>
+            <button type="submit">Logga in</button> <!--att man trycker vidare när man fyllt i fälten ovan-->
         </form>
     </main>
+    <footer> <!--visas längst ner på sidan-->
+      <p> Av Adam Jamal Te21c</p>
+    </footer>
     </body>
 </html>
