@@ -5,10 +5,17 @@
     grid-template-areas: 
     "header"
     "main"
-    "nav";
+    "nav"
+    "footer"
+    ;
     font-size: 30px;
     padding:8px;
+
+
 }
+    
+
+
 header{ /*header delen är en del av griden, lägger till något som att centrera texten*/
     grid-area: header;
     text-align: center;
@@ -39,7 +46,7 @@ nav{ /*nav är en del av griden där jag designar border och stil*/
 }
 nav ul{ /*naven är uppdelad i 4 delar och är en del av griden, de ska även vara på rätt plats och ul är som ett barn till naven*/
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0%;
     margin: 0%;
     
@@ -57,7 +64,16 @@ nav a{ /*Så länkarna bara ser ut som text*/
 
 }
 
-#hej{
+    footer{
+        grid-area: footer;
+    }
+    
+    main{
+        grid-area: main;
+    }
+
+
+#grid{
     
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -68,8 +84,9 @@ nav a{ /*Så länkarna bara ser ut som text*/
     
 }
 
-#felix{
+#bakgrund{
     background-image: url(https://4kwallpapers.com/images/wallpapers/pop-smoke-american-5120x2880-11137.jpg);
+    
 }
 
 img{ /*ändrar bild på bredden*/
@@ -80,49 +97,22 @@ section{ /*centrerar allt som jag har i mina sections */
     text-align: center;
     
 }
-#hejdå{
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-    "section section"
-    "section section";
 
 
-}
-
-#walter{
+#bakgrund2{
     background-image: url(https://cdn.wallpapersafari.com/99/0/0ykSfa.jpg);
 }
-#alem{
+#bakgrund4{
     background-image: url(https://wallpaperstock.net/grey-patterns_wallpapers_2638_1920x1080.jpg);
 }
-#hejdåhej{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-    "section section"
-    "section section";
 
 
-}
-#hejdåhejdå{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-    "section section"
-    "section section";
 
 
-}
 
-#leon{
-    background-image: url(https://img1.wallspic.com/crops/7/6/6/8/48667/48667-angle-wood-logo-thrash_metal-music-1920x1080.jpg);
+
+#bakgrund3{
+    background-image: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel4.jpg);
 }
 
 .quote{ /*designar min klass där jag ändrar apperance och storlek */
@@ -132,7 +122,7 @@ section{ /*centrerar allt som jag har i mina sections */
 }
 
 #vit{
-    color:#FFFFFF;
+    color:#0B0B0B;
 }
 
 iframe{ /* ändrar storlek på min spelbara youtube video*/
