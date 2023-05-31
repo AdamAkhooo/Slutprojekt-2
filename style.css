@@ -13,6 +13,26 @@
 
 
 }
+/* LoVe Focus HAte */ 
+a:link{
+    color:purple;
+}
+
+a:visited{
+    color: navy;
+}
+
+a:focus{
+    color: rgb(255,0,0);
+}
+
+a:hover{
+    color:#0000ff;
+}
+
+a:active{
+    color: green;
+}
     
 
 
@@ -81,6 +101,32 @@ nav a{ /*Så länkarna bara ser ut som text*/
     grid-template-areas: 
     "section section"
     "section section";
+    
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "section section"
+    "section ";
+}
+
+
+
+section > p{
+
+}
+
+body{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "header"
+    "main";
     
 }
 
