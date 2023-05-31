@@ -7,7 +7,7 @@
         <link href="style.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body id="bakgrund5">
         <header>
             <h1>Adam's Musik Genre</h1>
             <nav> 
@@ -25,25 +25,54 @@
 
             
             <section>
-                <textarea> </textarea>
+                <p>Har du någon övrig anteckning att göra?:</p>
+                
+                <form id="myForm">
+                    Lämna en anteckning: <br>
+                    <textarea name="my_textarea"></textarea>
+                </form>
 
-
+                
 
                 
 
             </section>
             
             <section>
-                <form method="post">
+                <p>Vilken gillar du mest?:</p>
                 
-                <input type ="checkbox" id="coding" name="interest" value="coding">
-                <label for = "coding">Coding</label>
+                <form method="check">
+                
+                <input type ="checkbox" id="Rap" name="interest" value="Rap">
+                <label for = "Rap">Rap</label>
+                <input type ="checkbox" id="Drill" name="interest" value="Drill">
+                <label for = "Drill">Drill</label>
+                <input type ="checkbox" id="Pop" name="interest" value="Pop">
+                <label for = "Pop">Pop</label>
+                <input type ="checkbox" id="Metal" name="interest" value="Metal">
+                <label for = "Metal">Metal</label>
+                <input type ="checkbox" id="Rnb" name="interest" value="Rnb">
+                <label for = "Rnb">Rnb</label>
 
 
                 </form>
             </section>
             <section>
-                
+                <p>Vilken är din favorit artist av de följande?:</p>
+
+                <form>
+                    <input type="radio" id="radio1" name="grupp"> Pop Smoke
+                    <br>
+                    <input type="radio" id="radio2" name="grupp"> Digga D
+                    <br>
+                    <input type="radio" id="radio3" name="grupp"> Michael Jackson
+                    <br>
+                    <input type="radio" id="radio4" name="grupp"> Metallica
+                    <br>
+                    <input type="radio" id="radio5" name="grupp"> The Weeknd
+                    <br>
+                    <input type="button" onclick="alert('Klar')" value="Skicka!">
+                </form>
             </section>
             
         </main>
@@ -53,12 +82,3 @@
     </body>
 </html>
 
-<form method="post" action="Drill.html"> <!--startar ett formulär -->
-    <label for="uname">Användarnamn:</label><br> <!--skrivbar yta-->
-    <input type="text" placeholder="Användarnamn" name="login" id="uname" required><br> <!--att man ska kunna skriva och att man måste skriva in för att gå vidare-->
-
-    <label for="psw">Lösenord:</label><br>
-    <input type="password" placeholder="Lösenord" name="login" id="psw" required><br>
-    
-    <button type="submit">Logga in</button> <!--att man trycker vidare när man fyllt i fälten ovan-->
-</form>

@@ -1,6 +1,6 @@
 #wrapper{ /*för att designa ett specifikt element med ett id som jag valde att ha på en specifik body*/
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg);
-    display: grid;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/224/893/original/abstract-design-halftone-white-and-grey-background-decorative-website-layout-or-poster-banner-brochure-print-ad-illustration-vector.jpg); /*bakgrundsbilden på min inloggnings sida */
+    display: grid; 
     grid-template-rows: 1fr 2fr 1fr ;
     grid-template-areas: 
     "header"
@@ -17,32 +17,32 @@
 a:link{
     color:purple;
 }
-
+/* LoVe Focus HAte */ 
 a:visited{
     color: navy;
 }
-
+/* LoVe Focus HAte */ 
 a:focus{
     color: rgb(255,0,0);
 }
-
+/* LoVe Focus HAte */ 
 a:hover{
     color:#0000ff;
 }
-
+/* LoVe Focus HAte */ 
 a:active{
-    color: green;
+    color: rgb(128, 0, 0);
 }
     
 
 
 header{ /*header delen är en del av griden, lägger till något som att centrera texten*/
-    grid-area: header;
-    text-align: center;
+    grid-area: header;  /*Placerar Header*/
+    text-align: center; /*centrerar texten inom header*/
 }
 form{ /*för att designa min form på inloggnings sidan */
-    grid-area: form;
-    margin: auto;
+    grid-area: form; /*placerar form*/
+    margin: auto; 
     border-width: 3px;
     border-style: solid;
     border-radius: 1em;
@@ -83,16 +83,16 @@ nav a{ /*Så länkarna bara ser ut som text*/
     color: black;
 
 }
-
-    footer{
+    /* möjliggör så att min grid är med i footer*/ 
+    footer{ 
         grid-area: footer;
     }
-    
+    /*möjliggör så att min grid är med i main */
     main{
         grid-area: main;
     }
 
-
+/* det här är en av 3 grid id jag har för att få 3 olika layouts i 3 sidor*/
 #grid{
     
     display: grid;
@@ -124,11 +124,11 @@ nav a{ /*Så länkarna bara ser ut som text*/
 
 
 
-section > p{
+section > p{ /* en child där section är föräldern till p som är child enligt min html där p taggar som ligger i section blir påverkade*/
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
 }
 
-body{
+body{ /* sätter grid på allt inom min body/synliga innehållet som ska vara standard på varje sida*/
     
     display: grid;
     grid-template-columns: 1fr;
@@ -137,9 +137,11 @@ body{
     "header"
     "main";
     
+    
+    
 }
 
-#bakgrund{
+#bakgrund{ /*ett id som jag använder för att lägga en bakgrundsbild på min sida. Uppkomer på några andra ställen som t.ex. bakgrund2 som är för en annan sida */
     background-image: url(https://4kwallpapers.com/images/wallpapers/pop-smoke-american-5120x2880-11137.jpg);
     
 }
@@ -150,6 +152,7 @@ img{ /*ändrar bild på bredden*/
 
 section{ /*centrerar allt som jag har i mina sections */
     text-align: center;
+    
     
 }
 
@@ -176,9 +179,7 @@ section{ /*centrerar allt som jag har i mina sections */
     
 }
 
-#vit{
-    color:#0B0B0B;
-}
+
 
 iframe{ /* ändrar storlek på min spelbara youtube video*/
     width: 500px;
@@ -188,3 +189,15 @@ iframe{ /* ändrar storlek på min spelbara youtube video*/
 @media screen and (max-width: 800px){ /* matchar webbläsarens/enhetens storlek som du är på*/
 
 }
+th,td,tr{ /* grupp selektor för th,td och tr i min tabell*/
+    border: 1px solid;
+    width: 25%;
+}
+p{
+    border: 1px solid;
+}
+
+#bakgrund5{
+    background-image:url(https://cdn.wallpapersafari.com/89/10/iCkJtq.jpg);
+}
+
