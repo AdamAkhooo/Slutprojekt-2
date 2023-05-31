@@ -66,7 +66,7 @@ nav{ /*nav är en del av griden där jag designar border och stil*/
 }
 nav ul{ /*naven är uppdelad i 4 delar och är en del av griden, de ska även vara på rätt plats och ul är som ett barn till naven*/
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 0%;
     margin: 0%;
     
@@ -113,10 +113,19 @@ nav a{ /*Så länkarna bara ser ut som text*/
     "section ";
 }
 
+#grid3{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "section section"
+    "section ";
+}
+
 
 
 section > p{
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
 }
 
 body{
