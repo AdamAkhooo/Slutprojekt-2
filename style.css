@@ -106,7 +106,7 @@ nav a{ /*Så länkarna bara ser ut som text*/
 
 #grid2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas: 
     "section section"
